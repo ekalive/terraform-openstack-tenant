@@ -13,3 +13,7 @@ output "network_name" {
 output "subnet_name" {
   value = openstack_networking_subnet_v2.app_subnet.name
 }
+
+output "subnet_resource" {
+  value = openstack_networking_subnet_v2.app_subnet
+}
